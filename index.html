@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Анастасия Дригина — Business Analyst</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- СЕКЦИЯ 1: HERO -->
+  <section class="hero">
+    <div class="hero__container">
+
+      <!-- ЛЕВАЯ ЧАСТЬ -->
+      <div class="hero__content">
+        <div class="hero__badge">
+          <span>✦</span> Открыта для новых проектов
+        </div>
+
+        <h1 class="hero__title">
+          ПРИВЕТ! Я <br>
+          <span class="text-pink">Анастасия</span> — <br>
+          <span class="text-lime">Business</span> Analyst
+        </h1>
+
+        <p class="hero__description">
+          Помогаю бизнесу и командам говорить на одном языке: собираю требования,
+          нахожу узкие места в процессах и превращаю размытые идеи
+          в понятные задачи для разработки.
+        </p>
+
+        <div class="hero__actions">
+          <a href="mailto:ivan@example.com" class="btn btn--primary">
+            Связаться со мной
+          </a>
+          <a href="#work" class="btn btn--ghost">
+            Смотреть кейсы
+          </a>
+        </div>
+      </div>
+
+      <!-- ПРАВАЯ ЧАСТЬ -->
+      <div class="hero__image-wrapper">
+        <div class="blob blob--pink"></div>
+        <div class="blob blob--lime"></div>
+
+        <img
+          src="photo.png"
+          alt="Фото Анастасии"
+          class="hero__image"
+        />
+
+        <div class="floating-badge">
+          <span>3+</span><br>года опыта
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Индикатор скролла -->
+    <a href="#work" class="hero__scroll" aria-label="Пролистать вниз">
+      <span class="hero__scroll-text">Листай вниз</span>
+      <span class="hero__scroll-arrow">↓</span>
+    </a>
+  </section>
+
+  <!-- СЕКЦИЯ 2: БЕГУЩАЯ СТРОКА -->
+  <section class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <div class="ticker__group">
+        <span>Business Analysis</span><i>✦</i>
+        <span>Requirements</span><i>✦</i>
+        <span>User Stories</span><i>✦</i>
+        <span>Jira</span><i>✦</i>
+        <span>Confluence</span><i>✦</i>
+        <span>Figma</span><i>✦</i>
+        <span>Miro</span><i>✦</i>
+        <span>Stakeholders</span><i>✦</i>
+      </div>
+      <div class="ticker__group">
+        <span>Business Analysis</span><i>✦</i>
+        <span>Requirements</span><i>✦</i>
+        <span>User Stories</span><i>✦</i>
+        <span>Jira</span><i>✦</i>
+        <span>Confluence</span><i>✦</i>
+        <span>Figma</span><i>✦</i>
+        <span>Miro</span><i>✦</i>
+        <span>Stakeholders</span><i>✦</i>
+      </div>
+    </div>
+  </section> 
+
+  <!-- СЕКЦИЯ 3: ЧТО Я ДЕЛАЮ (bento-grid) -->
+  <section class="work" id="work">
+    <div class="work__container">
+
+      <header class="work__header">
+        <h2 class="work__title">
+          Что я <span class="text-pink">делаю</span>
+        </h2>
+      </header>
+
+      <div class="bento">
+
+        <article class="card card--big">
+          <span class="card__num">01</span>
+          <h3 class="card__title">Сбор требований</h3>
+          <p class="card__text">
+            Провожу интервью со стейкхолдерами, разбираю хаос и превращаю его
+            в понятную структуру, с которой можно работать.
+          </p>
+        </article>
+
+        <article class="card card--tall card--dark">
+          <span class="card__num">02</span>
+          <h3 class="card__title">Анализ процессов</h3>
+          <p class="card__text">
+            Нахожу узкие места, предлагаю решения и показываю,
+            где команда теряет время и деньги.
+          </p>
+          <div class="card__arrow" aria-hidden="true">→</div>
+        </article>
+
+        <article class="card">
+          <span class="card__num">03</span>
+          <h3 class="card__title">User Stories</h3>
+          <p class="card__text">
+            Описываю задачи так, чтобы команда понимала с полуслова.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="card__num">04</span>
+          <h3 class="card__title">Документация</h3>
+          <p class="card__text">
+            Confluence, ТЗ и майндмапы — всё в одном месте.
+          </p>
+        </article>
+
+        <article class="card card--wide card--lime">
+          <span class="card__num">05</span>
+          <h3 class="card__title">Мост между бизнесом и командой</h3>
+          <p class="card__text">
+            Говорю на одном языке с бизнесом, разработкой и дизайном.
+          </p>
+        </article>
+
+        <article class="card card--pink">
+          <span class="card__num">06</span>
+          <h3 class="card__title">Инструменты</h3>
+          <p class="card__text">
+            Jira · Confluence · Figma · Miro · SQL
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
